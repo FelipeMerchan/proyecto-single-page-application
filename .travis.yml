@@ -16,6 +16,10 @@ deploy:
   github-token: $GITHUB_TOKEN
   local-dir: dist/
   target-branch: gh-pages
+<<<<<<< HEAD
   commit_message: 'Deploy Release'
+=======
+  commit_mesage: 'Deploy Release'
+>>>>>>> 198b23ef8557d9d6f2243c1ad657cdd4ab7ca87c
   on:
     branch: master
